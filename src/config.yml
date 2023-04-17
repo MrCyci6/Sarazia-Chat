@@ -1,4 +1,4 @@
 webhook: ""
 format: " %factionsuuid_faction_name% &7%player_name%&8 &f»&7 {MESSAGE}"
 
-ChatInterServeur: true # Activer ou non la diffusion du chat sur tous les serveurs
+ChatInterServeur: true # Activer ou non la diffusion du chat
