@@ -10,7 +10,8 @@ import java.util.ArrayList;
 public class MainBungee extends Plugin {
 
     private MainBungee instance;
-
+    
+    public String prefix = "§c[§4CHAT§c]";
 
     public void onEnable() {
         instance = this;
@@ -28,7 +29,7 @@ public class MainBungee extends Plugin {
 
 
     public void sendLog(String string) {
-         System.out.println("§c[§4CHAT§c] §r" + string);
+         System.out.println(prefix + " §r" + string);
     }
 
 }
