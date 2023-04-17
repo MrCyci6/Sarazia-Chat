@@ -1,0 +1,4 @@
+webhook: "https://discord.com/api/webhooks/1084430644949549066/1C0LCLHvCcTmFu7l6BRKzYKl-6t_TFJvJuHX-xE-aCJ-opbrrXl1YqvOHoVM1U3VpNqS"
+format: " %factionsuuid_faction_name% &7%player_name%&8 &f»&7 {MESSAGE}"
+
+ChatInterServeur: true # Activer ou non la diffusion du chat sur tous les serveurs
