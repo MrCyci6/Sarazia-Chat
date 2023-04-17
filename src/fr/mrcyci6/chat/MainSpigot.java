@@ -11,6 +11,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class MainSpigot extends JavaPlugin {
 
     private MainSpigot instance;
+    
+    public String preifx = "§c[§4CHAT§c]";
 
     public void onEnable() {
         instance = this;
@@ -31,6 +33,6 @@ public class MainSpigot extends JavaPlugin {
     public void onDisable() { sendLog("§cPlugin is disabled"); }
 
     public void sendLog(String string) {
-        Bukkit.getConsoleSender().sendMessage("§c[§4CHAT§c] §r" + string);
+        Bukkit.getConsoleSender().sendMessage(prefix + " §r" + string);
     }
 }
